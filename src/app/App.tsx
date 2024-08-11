@@ -1,13 +1,12 @@
-import { Main, Page, Wrapper } from "./style";
+import { CreatePassword } from "@/features";
+import { Main, Page } from "./style";
 
 const App = () => {
   return (
     <>
       <Main>
         <Page>
-          <Wrapper>
-            <h1>Password</h1>
-          </Wrapper>
+          <CreatePassword />
         </Page>
       </Main>
     </>
